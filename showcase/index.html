@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>html {background-color: #1B1B1B;}</style>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta name="description" content="TechOlympics 2025 is the nation's largest student-run tech conference, hosted by the INTERalliance of Greater Cincinnati. ">
+        <link id="css" rel="stylesheet" href='/css/inspire.css'>
+        <link rel="stylesheet" id="theme">
+        <noscript><link rel="stylesheet" href='/css/dark.css'></noscript>
+        <link rel="stylesheet" href='/css/mobile.css' media="(max-width: 1163px)">
+        <link rel="stylesheet" href='/css/desktop.css' media="(min-width: 1164px)">
+        <noscript>
+            <link rel="stylesheet" href="/css/noscript.css">
+        </noscript>
+        <link rel="stylesheet" href="/css/print.css" media="print">
+        <title>Showcase Projects - TechOlympics 2025</title>
+        <link rel="me" href="https://mastodon.social/@interalliancegc">
+        <link rel="shortcut icon" href='/images/favicon.png' type="image/x-icon">
+        <link rel="shortcut icon" href='/images/favicon.svg' type="svg">
+        <link as="font" rel="stylesheet" href='/css/font-awesome/css/brands.min.css'>
+        <link as="font" rel="stylesheet" href='/css/font-awesome/css/fontawesome.min.css'>
+        <link as="font" rel="stylesheet" href='/css/font-awesome/css/solid.min.css'>
+        <link as="font" rel="preconnect" href="https://fonts.googleapis.com">
+        <link as="font" rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    </head>
+    <body>
+        <header>
+            <span onfocusin="gainFocus('home')" onfocusout="loseFocus('home')" tabindex="0" id="header">
+                <a id="home" aria-label="Homepage" href='/'>
+                    <img src="/images/favicon.png" alt="">
+                    TechOlympics&nbsp;<span id="year"> 2025</span>
+                </a>
+            </span>
+            <nav id="links">
+                <div class='dropdown desktop'>
+                    <a tabindex="0" class="header-link" href='/'>Home</a>
+                </div><div id="dynamic-for-you" class='dropdown'>
+        <button onfocusin="gainFocus('for-you')" onfocusout="loseFocus('for-you')" onclick="dropdown('for-you')" id="for-you-header" class="header-link for-you">
+            FAQ<svg class="ast-arrow-svg desktop" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="16px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                    <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z"></path>
+                </svg></button>
+        <noscript>
+            <a tabindex="0" class="header-link" href='/faq'>
+            FAQ<svg class="ast-arrow-svg desktop" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="16px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                    <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z"></path>
+                </svg></a>
+        </noscript><div class="dropdown-content for-you" id="for-you-dropdown">
+            
+                <a 
+                    tabindex="0" 
+                    target='_self'
+                    class="for-you mobile" 
+                    href='/faq/'>
+                FAQ
+            </a>
+            
+                <a 
+                    tabindex="0" 
+                    target='_self'
+                    class="for-you all" 
+                    href='/for-students/'>
+                For Students
+            </a>
+            
+                <a 
+                    tabindex="0" 
+                    target='_self'
+                    class="for-you all" 
+                    href='/for-parents/'>
+                For Parents
+            </a>
+            
+                <a 
+                    tabindex="0" 
+                    target='_self'
+                    class="for-you all" 
+                    href='/for-faculty/'>
+                For Faculty
+            </a>
+            
+                <a 
+                    tabindex="0" 
+                    target='_self'
+                    class="for-you all" 
+                    href='/for-speakers/'>
+                For Speakers
+            </a>
+            
+                <a 
+                    tabindex="0" 
+                    target='_self'
+                    class="for-you all" 
+                    href='/for-sponsors/'>
+                For Sponsors
+            </a>
+            
+                <a 
+                    tabindex="0" 
+                    target='_self'
+                    class="for-you all" 
+                    href='/for-volunteers/'>
+                For Volunteers
+            </a>
+            
+        </div></div><div id="dynamic-information" class='dropdown'>
+        <button onfocusin="gainFocus('information')" onfocusout="loseFocus('information')" onclick="dropdown('information')" id="information-header" class="header-link information">
+            Event Info<svg class="ast-arrow-svg desktop" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="16px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                    <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z"></path>
+                </svg></button>
+        <noscript>
+            <a tabindex="0" class="header-link" href=''>
+            Event Info<svg class="ast-arrow-svg desktop" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="16px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                    <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z"></path>
+                </svg></a>
+        </noscript><div class="dropdown-content information" id="information-dropdown">
+            
+                <a 
+                    tabindex="0" 
+                    target='_self'
+                    class="information all" 
+                    href='/schedule/'>
+                Master Schedule
+            </a>
+            
+                <a 
+                    tabindex="0" 
+                    target='_self'
+                    class="information all" 
+                    href='/showcase/'>
+                Showcase Projects
+            </a>
+            
+                <a 
+                    tabindex="0" 
+                    target='_self'
+                    class="information all" 
+                    href='/speakers/'>
+                Our Speakers
+            </a>
+            
+                <a 
+                    tabindex="0" 
+                    target='_self'
+                    class="information all" 
+                    href='/contract/'>
+                Student Contract
+            </a>
+            
+        </div></div><div id="dynamic-forms" class='dropdown'>
+        <button onfocusin="gainFocus('forms')" onfocusout="loseFocus('forms')" onclick="dropdown('forms')" id="forms-header" class="header-link forms">
+            Forms<svg class="ast-arrow-svg desktop" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="16px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                    <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z"></path>
+                </svg></button>
+        <noscript>
+            <a tabindex="0" class="header-link" href=''>
+            Forms<svg class="ast-arrow-svg desktop" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="16px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                    <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z"></path>
+                </svg></a>
+        </noscript><div class="dropdown-content forms" id="forms-dropdown">
+            
+                <a 
+                    tabindex="0" 
+                    target='_blank'
+                    class="forms all" 
+                    href='https://interalliance.dm.networkforgood.com/forms/techolympics-2025-call-for-speakers'>
+                Call for Speakers
+            </a>
+            
+                <a 
+                    tabindex="0" 
+                    target='_blank'
+                    class="forms all" 
+                    href='https://interalliance.dm.networkforgood.com/forms/request-for-techolympics-scholarship-2025'>
+                Scholarship Request
+            </a>
+            
+                <a 
+                    tabindex="0" 
+                    target='_blank'
+                    class="forms all" 
+                    href='https://interalliance.dm.networkforgood.com/forms/techolympics-2025-early-dismissal'>
+                Request for Early Dismissal
+            </a>
+            
+        </div></div><a tabindex="0" class="header-link white-button" href='/registration'>
+        Register
+    </a></nav>
+        </header>
+        <main>
+        <div class="main">
+    <!-- About -->
+    <h1>
+        Showcase Project Information
+    </h1>
+    <hr class="divide">
+    <p>
+        Each year, the TechOlympics Showcase is a central part of our technology competition and event. Schools work on
+        their Showcase projects with their coach during the November to February timeframe, then present their projects
+        as a team in front of our panel of executive judges from all over Cincinnati’s business community.
+    </p>
+    <p>
+        Create a project in one of these categories to earn points for your school in the 2025 TechOlympics
+        Showcase. Use these as inspiration, but the sky’s the limit for what you can do. You will present this project
+        to a panel of expert judges at TechOlympics 2025 in February.
+    </p>
+    <p>
+        The winning project of the TechOlympics showcase will have the chance to present their project to all other
+        attendees and even at an INTERalliance board meeting!
+    </p>
+    <!-- Showcase Categories -->
+    <div class="two-column showcase-categories">
+        <div tabindex="0" class="flex">
+            <div class="showcase-icon desktop">
+                <i class="fa-regular fa-file-code" aria-hidden="true"></i>
+            </div>
+            <div>
+                <h2>
+                    Innovative Programming
+                </h2>
+                <ul>
+                    <li>
+                        Create a functional web application that accomplishes a goal and is aesthetically pleasing.
+                    </li>
+                    <li>
+                        Develop a mobile app for any platform that helps users, whether it’s making their day-to-day
+                        life easier or helps them connect with others.
+                    </li>
+                    <li>
+                        Code a video game – and you better do something cooler than “Tic-tac-toe!”
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div tabindex="0" class="flex">
+            <div class="showcase-icon desktop">
+                <i class="fa-solid fa-microchip" aria-hidden="true"></i>
+            </div>
+            <div>
+                <h2>
+                    Event Theme: Inspire
+                </h2>
+                <ul>
+                    <li>
+                        Shine a spotlight on either a new technology, or an innovative way to make use of an older one.
+                    </li>
+                    <li>
+                        Present something entirely new; something the judges will never have seen before.
+                    </li>
+                    <li>
+                        Create something to shine a light on and help solve an issue in your community. This can be a
+                        micro or macro level issue as long as your solution is substantial.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="two-column showcase-categories">
+        <div tabindex="0" class="flex">
+            <div class="showcase-icon desktop">
+                <i class="fa-solid fa-paint-brush" aria-hidden="true"></i>
+            </div>
+            <div>
+                <h2>
+                    Digital Design
+                </h2>
+                <ul>
+                    <li>
+                        Make a 3D model for your school, a local business, or other organization.
+                    </li>
+                    <li>
+                        Create a marketing campaign or “brand” for a local business or cause, including a logo, posters,
+                        etc.
+                    </li>
+                    <li>
+                        Produce a video that tells a story, promotes a product or business, or conveys information. Can
+                        be real footage, animated, or both… use your imagination!
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div tabindex="0" class="flex">
+            <div class="showcase-icon desktop">
+                <i class="fa-solid fa-desktop" aria-hidden="true"></i>
+            </div>
+            <div>
+                <h2>
+                    STEM Miscellaneous
+                </h2>
+                <ul>
+                    <li>
+                        “STEM” stands for science, technology, engineering, and math. As long as your project idea is
+                        related to one of these topic areas, we want it at TechOlympics! Crazy experiments and
+                        innovations, robotics, algorithms, and inventions are all welcome – and then some.
+                    </li>
+                    <li>
+                        Try your hand at creating a business plan for the next “big thing” related to technology! Design a hypothetical product, app, or service; research what it would take to make it a possibility; and present it.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Project Requirements -->
+    <hr class="divide">
+    <h1 tabindex="0">Project Requirements</h1>
+    <ul>
+        <li>
+            Each school can only submit 1 showcase project and up to 5 representatives from the school must attend the
+            conference in order to present the project although any number of students may work on the project.
+        </li>
+        <li>
+            The project must be original and must have been started at some point in the 2023-24 school year, and must
+            contain a slideshow to be presented.
+        </li>
+        <li>
+            Projects should be substantial. If a high level of effort is apparent when your project is being judged,
+            your project will earn more points. Think outside the box, cover all your bases, and use a team to divide a
+            huge project into small pieces so your school can succeed. The winning project of the TechOlympics showcase
+            will have the opportunity to present their project in front of over 500 of their peers!
+
+        </li>
+    </ul>
+    <div style="justify-content: space-between;" class="two-column">
+        <p><strong>
+                Showcase Project Registration is Now Open!
+            </strong></p>
+        <a tabindex="0" class="button" href="https://interalliance.dm.networkforgood.com/forms/2025-techolympics-showcase-registration">Submit Project</a>
+    </div>
+    <hr class="divide">
+    <!-- Best Practices -->
+    <h1 tabindex="0">Best Practices</h1>
+    <ul>
+        <li>
+            While a working prototype is not required, it is highly encouraged. A working prototype will help to
+            eliminate ambiguities and improve accuracy in interpretation of the project requirements and functionality.
+
+        </li>
+        <li>
+            Providing judges with a workflow/development process will give them a heightened sense of how your project
+            came to fruition. This may include the: tasks and requirements which constitute a process & the people or
+            resources required to deliver this process.
+        </li>
+        <li>
+            Similar to a workflow, a data/application flow will help judges follow the actual functionality and flow of
+            information for your process or system. This is simply an overview that should be able to be elaborated
+            upon.
+        </li>
+        <li>
+            In addition to your core project, it is advised to develop a business and marketing plan if applicable. This
+            will convey your forward-looking approach and show a practical plan for advancing your idea.
+
+        </li>
+    </ul>
+    <hr class="divide">
+    <!-- Showcase Rubric -->
+    <h1 tabindex="0">
+        Showcase Rubric
+    </h1>
+    <table style="border-collapse: collapse; overflow: scroll; min-width: 100vh;">
+        <tr>
+            <th>Score</th>
+            <th>Real-World Impact & Viability</th>
+            <th>Creativity & Originality</th>
+            <th>Technical Difficulty</th>
+            <th>Presentation</th>
+        </tr>
+        <tr>
+            <td tabindex="0" class="center">1</td>
+            <td>Project is shallow. While it may be interesting, it does not address a real-world issue or problem.</td>
+            <td>Not very original at all, an overused idea. Cliche, unimaginative. </td>
+            <td>Project does not leverage technology and addresses a relatively superficial issue or problem that, while
+                possibly entertaining, does not represent a technical challenge of substance.</td>
+            <td>Weak presentation. Poor public speaking skills shown. Not effective in communicating the idea.</td>
+        </tr>
+        <tr>
+            <td tabindex="0" class="center">2</td>
+            <td>Project provides a narrow problem that will have some impact if implemented. The cost is prohibitive for
+                limited budgets.</td>
+            <td>Interesting idea. Not as unique as it could have been, but a little creativity is clear.</td>
+            <td>Project somewhat leverages new technology and addresses a relatively challenging issue or problem that
+                represents a mild technical challenge of substance.</td>
+            <td>Presentation is acceptable to communicate the project, but could have been much stronger. People who
+                presented were not as polished as they could have been.</td>
+        </tr>
+        <tr>
+            <td tabindex="0" class="center">3</td>
+            <td>Project provides a real solution to a real problem, with the impact limited to a very select group of
+                people. Project doesn't scale particularly well but is effective in its described area of influence.
+            </td>
+            <td>A creative idea. More than a mere copy of other people's ideas.</td>
+            <td>Project involves a moderately difficult or challenging subject matter or issue and makes a good attempt
+                to use technology to address the problem.</td>
+            <td>Good attempt. One or more strong presenters. Some presenters were not strong enough for the role they
+                were given.</td>
+        </tr>
+        <tr>
+            <td tabindex="0" class="center">4</td>
+            <td>Project provides a very interesting idea that would have a significant impact on a real world problem if
+                implemented as described.</td>
+            <td>Very creative, innovative, original. Not typical.</td>
+            <td>Project involves a highly difficult or challenging subject matter or issue, and makes an impressive
+                attempt to utilize technology to efficiently and directly solve the problem. </td>
+            <td>Strong presentation. Most or all of the students presented quite well. The presentation sold the project
+                to the audience.</td>
+        </tr>
+        <tr>
+            <td tabindex="0" class="center">5</td>
+            <td>Project provides a powerful, innovative solution to a real-world problem that could have a wide impact
+                on many people if implemented widely.</td>
+            <td>Outstanding. Surprisingly innovative. Clearly not a copy of anything that already exists.</td>
+            <td>Project involves very complex subject matter, a complex challenge, or a simple subject matter with a
+                complex twist, and uses technology creatively to address the problems.</td>
+            <td>Very professional. Presentation effectively communicated their project. Students showed terrific and
+                professional stage presence and presented very well.</td>
+        </tr>
+    </table>
+    <hr class="divide">
+    <!-- Previous Showcase Winners -->
+     <!-- 2024 - Empower Showcase Winners --><h1>2024 Showcase Winners</h1>
+     <div class="tab">
+         
+         <button tabindex="0" class="empower-header First Place Winners"
+    onclick="showcase(event, `empower-First Place Winners`)">First Place Winners</button>
+         
+         <button tabindex="0" class="empower-header Second Place Winners"
+    onclick="showcase(event, `empower-Second Place Winners`)">Second Place Winners</button>
+         
+         <button tabindex="0" class="empower-header Third Place Winners"
+    onclick="showcase(event, `empower-Third Place Winners`)">Third Place Winners</button>
+         
+     </div>
+     
+     <div id="empower-First Place Winners" class="empower projects First Place Winners">
+        <h2>St. Henry District High School</h2>
+        <p><strong tabindex="0">Project Name: </strong>Search and Rescue Coordinator (SARCO)</p>
+        <p><strong tabindex="0">Project Category: </strong>Event Theme: Empower</p>
+        <p><strong tabindex="0">Project Description: </strong>The search and rescue coordinator serves as a method to make a live map of clues in order to help on field search teams and mission control in an urban search and rescue environment. The physical prototype is easily attached to a hiking stick and contains GPS equipment that is more accurate than a smartphone. When the button on the prototype is pressed, the coordinates of the clue are sent to a google sheet database that assigns a clue name from the phonetic alphabet. All live locations and coordinates are available on the website in both map and standard coordinate form. The website also contains information on basic first aid guides and search and rescue techniques. This allows even volunteers with no skill to better help the teams. The project itself has room to grow and there are many ideas the team has developed for future expansions.</p>
+        <p><strong tabindex="0">Funding, Resources, and Technology Comments: </strong>All funding was provided by the school from last year's competition. 3d printers, owned by both students and the school, were used. List of used hardware: Raspberry Pi, breadboard, GPS Arduino, GPS antenna, and connection cables. Also, a wooden hiking stick was used. For software: there are parts programmed in python and a website programmed with HTML, CSS, and JavaScript.</p>
+    </div>
+     
+     <div id="empower-Second Place Winners" class="empower projects Second Place Winners">
+        <h2>Lakota East High School</h2>
+        <p><strong tabindex="0">Project Name: </strong>SAVIOR</p>
+        <p><strong tabindex="0">Project Category: </strong>Event Theme: Empower</p>
+        <p><strong tabindex="0">Project Description: </strong>In the last 10 years, over 2 million people have been injured in natural disasters worldwide. The aftermath of such disasters creates treacherous terrains, making search and rescue operations challenging. Our solution is SAVIOR (Search and Amphibious Vehicle for Immediate Operational Rescue): a remote operated, amphibious vehicle equipped with a GPS, camera, and medical supplies. An Arduino system will manage the onboard sensors. A Spektrum DX6 radio receiver will allow the operator to maneuver the robot, manage a camera, and access a radio. Additionally, since limb lacerations are the most common form of injury in natural disasters, SAVIOR will come equipped with tourniquets, gauze, bandages, etc. To continue incorporating STEM methods, engineering strategies such as materials testing and CAD modeling will be a vital part of the preliminary design, and math will be used to ensure a reasonable weight and buoyancy. Embracing innovation, safeguarding humanity, SAVIOR solves for tomorrow.</p>
+        <p><strong tabindex="0">Funding, Resources, and Technology Comments: </strong>The group used an Arduino, relays, motor drivers, low gauge wires, voltage converters, and Dewalt batteries. This technology was procured using the budget provided by the Lakota East Capstone course and by utilizing recycled parts.</p>
+    </div>
+     
+     <div id="empower-Third Place Winners" class="empower projects Third Place Winners">
+        <h2>Indian Hill High School</h2>
+        <p><strong tabindex="0">Project Name: </strong>IRIS</p>
+        <p><strong tabindex="0">Project Category: </strong>Event Theme: Empower</p>
+        <p><strong tabindex="0">Project Description: </strong>I.R.I.S., or Illuminated Rain-shielding Inclusive Support, is a futuristic invention designed to increase personal mobility and safety in urban and college-campus environments. This innovative design is a prototype for an umbrella that integrates Arduino-programmed LED lights into its framework to provide a steady light that enhances visibility in low-light conditions, improving safety for users navigating through busy city streets or poorly lit areas. The LED lights not only serve as a safety measure but also illuminate the user's surroundings, offering a wider range of vision and keeping them more situationally aware.
+Another one of I.R.I.S.'s main attractions is its CAD-designed backpack insert, allowing users to carry the umbrella in a backpack compartment. This portability feature is convenient and enables individuals to carry their umbrella and keep both hands free of unnecessary burdens. Similar to its LED lights, the hands-free portion of the umbrella also enhances the safety of the user so they can always be physically prepared for whatever comes their way.
+In any bustling outdoor environment, we envision that I.R.I.S. will become an indispensable companion. Its dual functionality as a rain shield and a source of illumination empowers users to move more confidently and safely than ever before. Whether navigating alone at night or along dimly-lit streets, I.R.I.S. ensures that users can be free to pursue their tasks and dreams without worrying about threats to their well-being.
+Embrace the future of safety and mobility with I.R.I.S., creating a world in which you can 'walk boldly and dream brightly.' </p>
+        <p><strong tabindex="0">Funding, Resources, and Technology Comments: </strong>Technologies: We used CAD-design to 3-D print the support and Arduino to program the LED lights. Resources: We used the school's 3D printer and a plethora of physical materials to build the prototype, and Canva (free) to make the presentation. Funding: The student president donated some of the materials and the other materials were from resources available to IHHS students.</p>
+    </div>
+     <div class="flex space-1" style="width: 100%;">
+        <a style="text-align: center; width: 100%;" href="/showcase/winners">A list of other previous winners is available here.</a>
+
+     </div>
+     <script src="/js/showcase.js"></script>
+<noscript>
+    <style>
+        .tab {
+            display: none;
+        }
+    </style>
+</noscript>
+
+        </main>
+        <footer>
+            <div id="footer-flex">
+                <div id="copyright">
+                    <p>
+                        The TechOlympics website was developed by <a tabindex="0" target="_blank" class="text" href="https://cassian.cc">Cassian Godsted</a> and is maintained by the <a tabindex="0" class="text" href="https://interalliance.org/programs/ilc#systems">INTERalliance Leadership Council IT Team</a>.
+                    </p>
+                    <p>
+                        This site and event is copyrighted © INTERalliance 2024, All Rights Reserved.
+                    </p>
+                    </div>
+                <div id="footer-content" class="flex column footer-even">
+                    <span class="footer-header">Join Us</span>
+                    <div id="footer-links">
+                        
+                        <a tabindex="0" class="social" target="_blank" aria-label="INTERalliance on Facebook"
+    href="https://www.facebook.com/interalliance/"><i class="fa-brands fa-facebook-square fa-2x social"></i></a>
+                        
+                        <a tabindex="0" class="social" target="_blank" aria-label="INTERalliance on Instagram"
+    href="https://www.instagram.com/interalliancegc/"><i class="fa-brands fa-instagram-square fa-2x social"></i></a>
+                        
+                        <a tabindex="0" class="social" target="_blank" aria-label="INTERalliance on Bluesky"
+    href="https://bsky.app/profile/interalliance.org/"><i class="fa-brands fa-bluesky fa-2x social"></i></a>
+                        
+                        <a tabindex="0" class="social" target="_blank" aria-label="INTERalliance on Mastodon"
+    href="https://mastodon.social/@interalliancegc/"><i class="fa-brands fa-mastodon fa-2x social"></i></a>
+                        
+                        <a tabindex="0" class="social" target="_blank" aria-label="INTERalliance on LinkedIn"
+    href="https://www.linkedin.com/company/the-interalliance-of-greater-cincinnati"><i class="fa-brands fa-linkedin fa-2x social"></i></a>
+                        
+                    </div>
+                </div>
+                <div id="past-events" class="footer-even desktop">
+                    <span class="footer-header desktop">Past Events</span>
+                    <div id="past-event-logos" class="flex">
+                        <a tabindex="0" class="event" target="_blank" title="Visit the site for TechOlympics 2024: Empower" href="https://empower.techolympics.org">
+    <img loading="lazy" src="/images/past/empower.avif" alt="">
+</a>
+                        
+                        <a tabindex="0" class="event" target="_blank" title="Visit the site for TechOlympics 2023: Electrify" href="https://electrify.techolympics.org">
+    <img loading="lazy" src="/images/past/electrify.avif" alt="">
+</a>
+                        
+                        <a tabindex="0" class="event" target="_blank" title="Visit the site for TechOlympics 2022: Byte Back" href="https://byteback.techolympics.org">
+    <img loading="lazy" src="/images/past/byteback.avif" alt="">
+</a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </footer>
+        <script src='/js/index.js'></script>
+  </body>
+</html>

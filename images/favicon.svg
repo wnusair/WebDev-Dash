@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="favicon"
+   viewBox="0 0 115.73 161.03969"
+   version="1.1"
+   sodipodi:docname="favicon.svg"
+   width="115.73"
+   height="161.03969"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview13"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="2.6115838"
+     inkscape:cx="172.11778"
+     inkscape:cy="123.29683"
+     inkscape:window-width="1920"
+     inkscape:window-height="1002"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="favicon" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:#a9ffa7;}.cls-2{fill:#e7bb4d;}.cls-3{fill:#2d2957;}</style>
+  </defs>
+  <path
+     class="cls-3"
+     d="m 105.9,35.10963 c 4.71,-3.11 9.83,0.82 9.83,0.82 0,0 -3.41,-13.17 -11.39,-16.75 -8.859997,-3.97 -22.219997,2.07 -23.799997,21.13 -10.03,-9.69 -20.27,-17.96 -21.81,-21.9 -3.02,-7.72 12.45,-14.7800001 12.45,-14.7800001 0,0 -1.92,-3.94000001 -13.26,-3.61000001 -11.34,0.33 -25.82,16.58000011 -25.82,29.55000011 0,12.97 12.04,15.43 14.31,21.18 2.27,5.75 -10.99,16.42 -10.99,16.42 0,0 -0.35,-9.19 -6.11,-14.94 -5.76,-5.75 -23.0299997,-2.96 -23.0299997,-2.96 0,0 6.7999997,2.13 10.8199997,13.13 4.01,11 -33.09,18.55 -8.7799997,62.88 7.5499997,13.77 24.5699997,19.7 40.1599997,19.7 36.7,0 58.119997,-13.41 62.429997,-30.65 10.47,-41.85 -15.449997,-72.34 -5,-79.24 z"
+     id="path6" />
+  <rect
+     class="cls-1"
+     x="42.899956"
+     y="101.34969"
+     width="29.91"
+     height="59.689999"
+     id="rect8" />
+  <path
+     class="cls-2"
+     d="m 78.930003,106.29963 c 0,24.07 -9.43,21 -21.07,21 -11.64,0 -21.07,3.3 -21.07,-21 0,-13.99 9.43,-25.33 21.07,-25.33 11.64,0 21.07,11.34 21.07,25.33 z"
+     id="path10" />
+</svg>

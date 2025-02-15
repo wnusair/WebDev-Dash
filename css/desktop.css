@@ -1,0 +1,165 @@
+/* UNIVERSAL */
+body {
+    font-size: 20px;
+}
+
+main {
+    line-height: 1.6em;
+    min-height: 649px;
+    margin-top: 3.5em;
+}
+
+.two-column div, .two-column img {
+    width: 50%;
+    height: fit-content;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.two-column div div, .two-column div img {
+    width: 100%;
+    margin: unset;
+}
+
+.two-column img {
+    height: 19vw;
+}
+
+.main {
+    padding: 8px;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#competitions, #competitions .glide__track {
+    width: 570px;
+}
+
+#schedule a {
+    font-size: 3em;
+
+}
+
+#carousel video, #carousel img {
+    width: 50%;
+}
+
+/* HEADER */
+
+header {
+    height: 3.5em;
+
+}
+
+.header-link {
+    font-size: 1.1em;
+}
+
+#home img  {
+    width: 30px;
+}
+
+header img, #home {
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    visibility: visible;
+}
+
+.dropdown-content {
+    padding-top: .33em;
+}
+
+.mobile {
+    display: none !important;
+    visibility: hidden;
+}
+
+.accessible .active .mobile {
+    display: block !important;
+    visibility: unset;
+}
+
+.header-link.white-button {
+    margin: 0.5em;
+    padding: 0.5em;
+    margin-left: 1em;
+}
+
+/* COLLAPSIBLE */
+details summary::-webkit-details-marker {
+    display:none;
+}
+
+details > summary {
+    display:block
+}
+
+/* FOOTER */
+#footer-links{
+    margin-bottom: .15em;
+}
+
+#copyright {
+    font-size: .8em;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5em;
+}
+
+
+.footer-even {
+    width: 33%;
+}
+
+.footer-header {
+    text-align: center;
+}
+
+footer {
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+#page-header #header-internal {
+    width: max-content;
+    
+}
+
+/* MISC */
+.two-column.showcase-categories div {
+    width: 100%;
+    margin-top: 1em;
+}
+
+/* Hoverable rescaling buttons */
+
+a.button, .header-link.white-button {
+    transition: transform .3s;
+}
+
+a.button:hover, .header-link.white-button:hover {
+    transform: scale(1.05);
+}
+
+.event, .event img {
+    width: 3.5em;
+}
+
+.event {
+    padding: .5em;
+}
+
+.social {
+    padding-top: .1em;
+}
+
+.even {
+    justify-content: space-evenly;
+}

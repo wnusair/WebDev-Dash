@@ -1,0 +1,21 @@
+
+
+:root {
+    --white: #222120;
+    --black: #E5DCD5;
+    --header: black;
+    --footer: #EEEEEE;
+    --primary: #8378ff;
+    --secondary: #6e65d9;
+    --primary-text: #E7A94C;
+    --secondary-text: #a9ffa7;
+}
+
+body {
+    visibility: visible;
+    opacity: 1;
+}
+
+header {
+    background-image: linear-gradient(0deg, #010101, #0d0f16);
+}

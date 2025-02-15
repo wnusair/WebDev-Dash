@@ -1,0 +1,35 @@
+:root {
+    --white: #E5DCD5;
+    --black: #222120;
+    --header: #E5DCD5;
+    --primary: #2d2957;
+    --secondary: #2d2957;
+    --primary-text: #e7a94d;
+}
+
+
+body {
+    visibility: visible;
+    opacity: 1;
+}
+
+hr {
+    color: grey
+}
+
+footer {
+    border-top: solid grey 3px;
+    background-color: #d2c7be;
+}
+
+a.text:hover, .social:hover {
+    color: #2d2957 !important;}
+
+
+.social.fa-bluesky:hover, .social.fa-mastodon:hover {
+    color: var(--white) !important
+}
+
+.dropdown-content a:hover {
+background-color: #fff0da   ;
+}

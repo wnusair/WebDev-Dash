@@ -1,0 +1,8 @@
+header, footer, #new-dark {
+    display: none;
+    visibility: hidden;
+}
+
+h1 {
+    color: black;
+}

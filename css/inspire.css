@@ -1,0 +1,593 @@
+/* FONTS */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Major Elements */
+body {
+    color: var(--black);
+    margin: 0;
+    visibility: hidden;
+    opacity: 0;
+    background-color: var(--white);
+}
+
+img {
+    object-fit: contain;
+    object-position: top;
+}
+
+html, body {
+    overflow-x: clip !important;
+    overflow: scroll;
+}
+
+button {
+    cursor: pointer;
+    display: block;
+    background-color: var(--secondary);
+    font-size: 1.2em;
+    margin: 1em;
+    border-radius: 5px;
+    padding: 0.3em;
+}
+
+#new-dark {
+    /* Dark Mode Toggle Button */
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 7.5%;
+    margin: 20px;
+    cursor: pointer;
+    backdrop-filter: blur(20px);
+    border-radius: 50%;
+}
+
+/* Common Styles */
+
+.dropdown-content button, .glide__arrows button, .glide__bullets button, .dropdown .dropbtn {
+    border: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.right-align {
+    text-align: right;
+}
+
+a.button {
+    /* A lot of the buttons on the site are actually just links. Styles for those are here. */
+    text-decoration: none;
+    background-color: var(--secondary);
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 0.5em;
+    border-radius: 5px;
+    color: var(--white);
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: fit-content;
+    transition: background-color 0.3s;
+}
+
+a.button:hover, .white-button:hover {
+    background-color: var(--primary);
+}
+
+.indent {
+    margin-left: 0.5em;
+}
+
+.spacer {
+    color: var(--secondary);
+}
+
+details summary::-webkit-details-marker, details summary::marker {
+    /* Prevents default styling on collapsibles. */
+    display: none;
+    visibility: hidden;
+    content: "";
+}
+
+/* Spacers */
+
+.space-1 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.space-2 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.space-3 {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.space, .space-5 {
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+/* General text styling. */
+.dropdown-content button, .text, footer .social, .glide__arrows button {
+    color: var(--black);
+}
+
+main a {
+    color: var(--secondary);
+}
+
+main a:not(.button):hover {
+    color: var(--primary);
+}
+
+body, button, a, h1, h2 {
+    font-family: "Poppins", sans-serif;
+}
+
+a.button, .white-button, #home {
+    font-weight: 700;
+}
+
+h1.multi-line {
+    line-height: 1.2em;
+}
+
+#home #year, h1, h2 {
+    font-weight: 900;
+}
+
+h1, h2 {
+    color: var(--primary-text);
+}
+
+body, a {
+    font-weight: 400;
+}
+
+/* Header */
+
+header {
+    background-color: var(--header);
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    font-weight: 600;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: var(--white);
+    z-index: 4;
+}
+
+#links {
+    padding-left: 3px;
+}
+
+header svg {
+    fill: var(--black);
+    margin-left: 5px;
+}
+
+a.white-button {
+    /* Not a particularly accurate selector on TO.org, but this is the header button */
+    background-color: var(--secondary);
+    color: var(--white);
+    border-radius: 5px;
+}
+
+nav {
+    overflow: hidden;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+header div {
+    margin-right: 3px;
+}
+
+.header-link {
+    color: var(--black);
+    text-decoration: none;
+    padding-right: 6px;
+    padding-left: 6px;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#home {
+    text-decoration: none;
+    color: var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-content {
+    display: none;
+    visibility: hidden;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a, .dropdown-content button {
+    float: none;
+    padding: 12px 16px;
+    text-decoration: none;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding-right: 1em;
+    padding-left: 1em;
+    display: block;
+    text-align: left;
+    color: var(--black);
+    background-color: var(--header);
+}
+
+.dropdown-content a:hover, .dropdown-content button:hover {
+    background-color: var(--white);
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.dropdown .dropbtn {
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--header);
+    margin-top: 70px;
+    padding-bottom: 0.5em;
+    padding: 1em;
+}
+
+footer span {
+    margin-top: 16px;
+    margin-bottom: 0;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.after::after {
+    /* Styles dividers in the footer social icons */
+    width: 6px;
+    height: 24px;
+    border-radius: 5px;
+    display: inline-flex;
+    content: " ";
+    margin-left: 10px;
+    margin-right: -6px;
+    background: var(--secondary);
+}
+
+.after {
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+footer a.social {
+    padding-left: 6px;
+    padding-right: 6px;
+    text-decoration: transparent;
+}
+
+footer .social:hover, footer p a:hover {
+    transition: color 0.1s;
+    color: var(--secondary);
+}
+
+#footer-content, #past-events, #footer-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer-flex {
+    justify-content: space-evenly;
+}
+
+/* Homepage - Competitions Carousel */
+
+#carousel {
+    background-color: #e4dcd5;
+    display: flex;
+    justify-content: center;
+}
+
+a i {
+    font-style: normal;
+}
+
+#carousel img {
+    animation: hue2 3s infinite;
+    object-fit: cover;
+}
+
+.glide__bullet--active {
+    background-color: var(--primary) !important;
+}
+
+.glide__bullet {
+    background-color: var(--black);
+    padding: 5px;
+    margin: 5px;
+}
+
+div div.glide__bullets {
+    width: 100%;
+    justify-content: center;
+}
+
+#compete, #present {
+    align-items: center;
+}
+
+/* Homepage - Inverted Icon Section */
+
+.invert {
+    color: var(--white) !important;
+    background-color: var(--black);
+    margin: 0 !important;
+    max-width: unset !important;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.invert div h2 {
+    color: var(--white) !important;
+    margin-bottom: 0 !important;
+}
+
+.invert div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+/* Homepage - Schedule Button Section */
+
+#schedule {
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/audiencebg.avif);
+    background-position: center left;
+    background-size: cover;
+}
+
+#schedule a {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+/* shaded section for events. I don't know where this should be placed in this CSS file */
+
+.shaded {
+    background-color: rgb(27, 27, 27);
+    padding: 10px;
+}
+
+/* Frequently Asked Questions */
+
+.faq {
+    border: var(--black) solid 1px;
+}
+
+.faq summary {
+    cursor: pointer;
+    padding: 0.5em;
+}
+
+.faq[open] summary {
+    border-bottom: var(--black) solid 1px;
+}
+
+.faq div {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 1em;
+}
+
+.faq div p {
+    margin: 0;
+}
+
+.faq i {
+    margin-right: 0.5em;
+}
+
+.faq[open] .fa-plus:before {
+    /* Changes Plus to Minus when FAQ is opened */
+    content: "\f068";
+}
+
+/* Showcase - Category Icons */
+
+.showcase-icon {
+    border: var(--primary) solid 3px;
+    color: var(--primary);
+    border-radius: 50%;
+    width: 100px !important;
+    height: 75px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding: 0.5em;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Showcase - Table Styling */
+
+td,
+th {
+    border: var(--black) solid 1px;
+}
+
+th {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+/* Showcase Tabs */
+
+.tab {
+    overflow: hidden;
+    display: flex;
+}
+
+.tab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    border-radius: unset;
+    color: var(--secondary);
+    width: 33.333%;
+    border-bottom: 1px solid var(--black);
+    margin: 0;
+}
+
+.tab button:hover {
+    color: var(--primary);
+}
+
+.tab button.active {
+    border: var(--black) solid 1px;
+    border-bottom: none;
+}
+
+.projects {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid var(--black);
+    border-top: none;
+}
+
+.projects h2, h2.white-header {
+    color: var(--black);
+}
+
+/* Misc. margin tweaks */
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.spacer, .dropdown, .glide__arrows {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+hr.divide {
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+
+/* Misc. flexbox tweaks */
+
+.flex-column, .flex.column, #past-events {
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.flex, .flex-column, .two-column, .glide__bullets, nav {
+    display: flex;
+}
+
+.active {
+    display: block !important;
+    visibility: visible;
+}
+
+.accessible .dropdown:focus-within,
+#new-dark:focus {
+    outline: solid 3px var(--black);
+}
+
+td:focus,
+.accessible summary:focus {
+    outline: solid 3px var(--primary);
+}
+
+.tab button:focus {
+    border: solid 3px var(--primary);
+    border-bottom: transparent;
+}
+
+.dropdown .header-link:focus {
+    outline: none;
+}
+
+#footer-links {
+    margin-top: 0.5em;
+}
+
+::-moz-selection, ::selection {
+    /* Code for Firefox */
+    background: var(--primary);
+}
+
+.fa-bluesky, .fa-mastodon {
+    height: 29px;
+    width: 31px;
+    font-size: 1.3em !important;
+    color: var(--header) !important;
+    border-radius: 10px;
+    padding: 4px;
+    padding-top: 20px;
+    background-color: var(--black);
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+}
+
+.fa-mastodon {
+    font-size: 1.6em !important;
+}
+
+.fa-bluesky:hover, .fa-mastodon:hover {
+    background-color: var(--secondary);
+}
+
+#footer-links {
+    display: flex;
+}
